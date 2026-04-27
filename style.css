@@ -1,0 +1,63 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.app {
+  width: 450px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background: #00c6ff;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.habit {
+  background: #1f2a38;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress {
+  height: 8px;
+  background: #333;
+  border-radius: 10px;
+  margin-top: 8px;
+}
+
+.progress-bar {
+  height: 8px;
+  background: limegreen;
+  border-radius: 10px;
+  width: 0%;
+}
